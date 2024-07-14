@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    margin: auto;
+    height: 40rem;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid lightgray;
+    border-radius: 5%;
+    padding: 2rem;
+}
+
+.content img {
+    width: 10rem;
+}
+
+.btn-float-end {
+    float: right;
+}
